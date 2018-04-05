@@ -19,6 +19,10 @@ class marqueController extends Controller
     public function index()
     {
         //
+        // session set
+        session(['user_id' => 5]);
+        // session get
+        dd(session('store_id'));
         $marque=DB::table('marques')->get();
        // dd($marque);
        return view('affiche_marque', ['marques' =>$marque]);
@@ -31,6 +35,7 @@ class marqueController extends Controller
      */
     public function create()
     {
+
     return view('ajout_voiture');
 
         //
