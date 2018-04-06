@@ -159,6 +159,8 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+        ArtemSchander\L5Modular\ModuleServiceProvider::class,
+
 
     ],
 
