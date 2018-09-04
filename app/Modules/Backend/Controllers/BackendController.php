@@ -7,6 +7,10 @@ use App\Http\Controllers\Controller;
 
 class BackendController extends Controller
 {
+    public function crffggfg()
+    {
+echo "fsfsdf";
+    }
 
     /**
      * Display a listing of the resource.
@@ -26,6 +30,8 @@ class BackendController extends Controller
     public function create()
     {
         //
+        return view("Backend::index");
+
     }
 
     /**
